@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+@media (min-width: 940px) {
+    
+/*Configurações do corpo da página*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+/*Configurações da barra de opções/menu sair*/
+
+#divmenu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70px;
+    height: 50px;
+    margin-left: 83%;
+    align-items: center;
+}
+#volta{
+    background-color: lightgray;
+    width: 53px;
+    font-size: 18px;
+    border: none;
+    margin-right: 5px;
+}
+#volta:hover{
+    color: red;
+    cursor: pointer;
+}
+#eng{
+    width: 20px;
+    height: 20px; 
+}
+#bntexit{
+    background-color: lightgray;
+    width: 37px;
+    font-size: 18px;
+    border: none;
+}
+#bntexit:hover{
+    color: red;
+    cursor: pointer;
+}
+h1{ /*Configuraçãoes Titulo principal*/
+    text-align: center;
+    position: relative;
+    top: 3px;
+    color: red;
+}
+
+/*Configurações dentro do main da página*/
+
+#divcontrolcards{ /*Configurações do card onde está os outros do cards*/
+    columns: 2;
+    display: flex;
+    margin: auto;
+    
+}
+
+h2{ /*Configuração titulo segundario*/
+    text-align: center;
+    line-height: 1px;
+    margin-bottom: 25px;
+}
+.lis{ /*Configuração da div do card de elementos de cadastro*/
+    display: flexbox;
+    width: 350px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    border: solid 1px black;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px black;
+    text-align: center;
+}
+.tcard{ /*Configuração titulo card de cadastro*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.tinp{ /*Configuração titulo dos input*/
+    line-height: 1px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+#cm1{
+    margin-bottom: 20%;
+}
+.inp{ /*Configuração dos inputs / inp é a clase dos inputs*/
+    border-left: solid 2px red;
+    border-radius: 5px;
+}
+.bnt{
+    background-color: red;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    width: 80px;
+    height: 25px;
+}
+
+
+/*Configurações itens do rodapé*/
+footer{
+    display: flex;
+    margin-top: 50px;
+}
+#logo{
+    margin: auto;
+    width: auto;
+}
+#ver{
+    position: relative;
+    right: 2%;
+}
+}
+
+
+
+
+/*Configurações para telas menores de 940px*/
+
+@media (max-width: 939px) {
+    
+    /*Configurações do corpo da página*/
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: lightgray;
+    }
+    
+    /*Configurações da barra de opções/menu sair*/
+    
+    #divmenu{
+        display: flex;
+        justify-content: space-evenly;
+        width: 70px;
+        height: 50px;
+        margin-left: 76%;
+        align-items: center;
+    }#volta{
+        background-color: lightgray;
+        width: 50px;
+        font-size: 18px;
+        border: none;
+        margin-right: 5px;
+    }
+    #volta:hover{
+        color: red;
+        cursor: pointer;
+    }
+    #eng{
+        width: 20px;
+        height: 20px; 
+    }
+    #bntexit{
+        background-color: lightgray;
+        width: 37px;
+        font-size: 18px;
+        border: none;
+    }
+    #bntexit:hover{
+        color: red;
+        cursor: pointer;
+    }
+
+    
+    /*Configurações dentro do main da página*/
+    
+    h1{ /*Configuraçãoes Titulo principal*/
+        text-align: center;
+        position: relative;
+        top: 3px;
+        bottom: 50px;
+        color: red;
+    }
+    h2{ /*Configuração titulo segundario*/
+        text-align: center;
+        line-height: 2px;
+        margin-bottom: 25px;
+    }
+    .lis{ /*Configuração da div do card de elementos de cadastro*/
+        
+        width: 300px;
+        height: auto;
+        margin: auto;
+        margin-top: 7%;
+        background-color: whitesmoke;
+        border: solid 1px black;
+        border-radius: 7px;
+        box-shadow: 1px 2px 4px black;
+    }
+    .tcard{ /*Configuração titulo card de cadastro*/
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .tinp{ /*Configuração titulo dos input*/
+        line-height: 10px;
+        margin-bottom: 10px;
+        margin-left: 15%;
+    }
+    .inp{ /*Configuração dos inputs / inp é a clase dos inputs*/
+        margin-left: 15%;
+        border-left: solid 2px red;
+        border-radius: 5px;
+    }
+    .bnt{ /*Configurações do botões de consulta e remover*/
+        background-color: red;
+        color: white;
+        position: relative;
+        margin-left: 35%;
+        margin-top: 10px;
+        width: 80px;
+        height: 25px;
+    }
+    #lis2{ /*Configuração do posicioanemento do card de cadastro de câmeras*/
+        position: relative;
+        bottom: 10px;
+    }
+    
+    
+    /*Configurações itens do rodapé*/
+    footer{
+        display: flex;
+        margin-top: 50px;
+    }
+    #logo{
+        margin: auto;
+        width: auto;
+    }
+    #ver{
+        position: relative;
+        right: 2%;
+    }
+    }
