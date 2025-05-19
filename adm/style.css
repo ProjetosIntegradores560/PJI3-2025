@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/*Configurações do corpo da página*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+/*Configurações da barra de opções*/
+
+#divmenu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70px;
+    height: 50px;
+    margin-left: 87%;
+    align-items: center;
+}
+#bntexit{
+    background-color: lightgray;
+    width: 37px;
+    font-size: 18px;
+    border: none;
+}
+#bntexit:hover{
+    color: red;
+    cursor: pointer;
+}
+#eng{
+    width: 20px;
+    height: 20px; 
+}
+
+/*Configurações dentro do main*/
+
+h1{ /*Configuraçãoes Titulo principal*/
+    text-align: center;
+    position: relative;
+    top: 3px;
+    bottom: 50px;
+    color: red;
+}
+h2{
+    text-align: center;
+    line-height: 2px;
+}
+.lis{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    background-color: whitesmoke;
+    border: solid 1px black;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px black;
+}
+.bnt{
+    margin-top: 85%;
+    border: none;
+    background-color: whitesmoke;
+}
+.bnt:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/*Configurações de cadastro de membros*/
+#cadmem{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    width: 300px;
+    border: solid 1px black;
+}
+#cm{
+    
+    text-align: left;
+
+}
+
+
+/*Configurações itens do rodapé*/
+footer{
+    display: flex;
+    margin-top: 10%;
+
+}
+#logo{
+    margin: auto;
+    width: auto;
+}
+#ver{
+    position: relative;
+    right: 2%;
+}
