@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+
+/*Configurações do corpo da página*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    height: 100vh;
+}
+
+/*Configurações da barra de opções*/
+#bntexit{
+    background-color: lightgray;
+    width: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 1%;
+    left: 92%;
+}
+#bntexit:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/*Configurações do corpo principal da página(main)*/
+
+h1{ /*Configuraçãoes Titulo principal*/
+    text-align: center;
+    position: relative;
+    top: 1px;
+    bottom: 50px;
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+.div{/*Configurações das cameras*/
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5%;
+    border: solid 1px black;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 10px;
+}
+.vol{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-top: 50%;
+    width: 60px;
+    border:none; 
+}
+.vol:hover{
+    color:red;
+    cursor: pointer;
+}
+.link{
+    text-decoration-line: none;
+}
+p{
+    text-align: center;
+    margin-top: 60px;
+}
+
+/*Configurações dos botões de alerta*/
+.bntalert{
+    
+    display: flex;
+    margin: auto;
+    margin-top: 100px;   
+}
+#alti{
+    width: 180px;
+    height: 35px;
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 15px;
+    font-size:medium;
+    border-color: white;
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+}
+#fimalti{
+    width: 180px;
+    height: 33px;
+    color: black;
+    border-radius: 15px;
+    font-size:medium;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+/*Configurações itens do rodapé*/
+footer{
+    display: flex;
+    margin-top: 3%;
+    
+}
+#logo{
+    margin: auto;
+    width: auto;
+}
+#ver{
+    position: relative;
+    right: 2%;
+}
